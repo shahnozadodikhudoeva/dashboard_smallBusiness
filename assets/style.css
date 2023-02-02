@@ -1,0 +1,19 @@
+.checklist-new-line input[type="checkbox"] {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.checklist-new-line label {
+    display: block;
+    /* margin: 10px 0; */
+}
+
+.columns input[type="checkbox"] {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.columns label {
+    display: inline-block;
+    /* margin: 10px 0; */
+}
