@@ -7,7 +7,7 @@ import pandas as pd
 app=dash.Dash()
 
 
-df=pd.read_excel('Опросник .xlsx')
+df=pd.read_excel('assets/Опросник .xlsx')
 df=df.fillna(0)
 selo=df['Адрес расположения Район'].unique()
 regions=df['Cело/ джамоат'].unique()
