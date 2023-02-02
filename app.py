@@ -4,7 +4,8 @@ import dash_html_components as html
 
 import pandas as pd
 
-app=dash.Dash()
+app = Dash(__name__)
+server = app.server
 
 
 df=pd.read_excel('assets/Опросник .xlsx')
@@ -199,8 +200,8 @@ def set_display_children(v1, v2, v3,v4, v5, v6, v7, v8, v9):
 
     return new7.to_html(), finalTable.to_html()
 
-if __name__ == '__main__':
-    app.run_server()
+if __name__ == "__main__":
+    app.run_server(debug=True)
 
 
 
