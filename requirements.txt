@@ -2,3 +2,4 @@ dash==2.7.0
 dash_core_components==2.0.0
 dash_html_components==2.0.0
 pandas==1.5.0
+gunicorn==20.1.0
