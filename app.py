@@ -1,5 +1,5 @@
-
-from dash import Dash, dcc, html
+import dash
+from dash import Dash, dcc, html, Output, Input
 import pandas as pd
 
 app = Dash(__name__)
